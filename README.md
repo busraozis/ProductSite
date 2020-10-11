@@ -1,5 +1,5 @@
 # ProductSite
-This project involves services for adding products and listing products by categories for a hypothetical e-commerce website.
+This Spring Boot project involves services for adding products and listing products by categories for a hypothetical e-commerce website.
 
 It supplies the following 5 services as REST API. It also contains unit and integration tests for these services. 
 It uses in-memory H2 DB for storing data. In /src/main/resources folder, you can reach SQL queries that populates the DB.
