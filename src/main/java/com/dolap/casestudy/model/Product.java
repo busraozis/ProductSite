@@ -26,7 +26,7 @@ public class Product {
     @ManyToOne
     private Category category;
 
-    Product(){}
+    public Product(){}
 
     public Product(String name, String explanation, double price, User seller, Category category){
         this.name = name;

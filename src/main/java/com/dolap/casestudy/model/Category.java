@@ -22,7 +22,7 @@ public class Category {
     @OneToMany
     private List<Product> products;
 
-    Category(){
+    public Category(){
         products = new ArrayList<>();
     }
 
